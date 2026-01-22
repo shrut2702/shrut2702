@@ -24,7 +24,7 @@ I'm a Machine Learning Engineer with a year of experience working on applied ML 
 
 I started my career in 2024. And started exploring AI at more deeper level to go beyond thinking it as black box, and as I learned more about AI, I fell for fundamental mechanism and principles of Deep Learning architectures.
 
-I'm into maths, finance, tech, and trying to stop self-sabotaging. Aiming for generalist status, but my comfort zone has me in a death grip. Don't believe in fluff projects, either you learn or build something that solves problem.
+I'm broadly interested in maths, finance, tech, and ways to stop self-sabotaging. Aiming for generalist status, but my comfort zone has me in a death grip. Don't believe in fluff projects, either you learn or build something that solves problem.
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">
