@@ -92,3 +92,5 @@ All of my projects are released as open-source on GitHub:
 - [**attention_to_llm**](https://github.com/shrut2702/attention_to_llm) - My journal for hands-on exploration of building and training large language model from scratch.
 
 - [**text_recognition**](https://github.com/shrut2702/text_recognition) - An end-to-end OCR pipeline with a web-based upload interface using CRAFT for text detection and CRNN for text recognition. Models were trained from scratch on ~45,000 images, with experiments and versions tracked using CometML.
+
+- [**retail_vision**](https://github.com/shrut2702/Retail_Product_Detection) - A pipeline designed to detect and group products on retail shelves. This project built using flask utilizes multiple microservices to process images, detect products using a YOLO model, and group the detected products by category.
