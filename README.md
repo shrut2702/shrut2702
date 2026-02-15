@@ -82,12 +82,12 @@ I'm broadly interested in maths, finance, tech, and ways to stop self-sabotaging
 
 </p>
 
-#### Opensource
+#### Opensource / Projects
 
 All of my projects are released as open-source on GitHub:
 
 - [**upasak**](https://github.com/shrut2702/upasak) - A flexible, mindful to privacy, no-code/low-code framework for fine-tuning large language models, built around [Hugging Face Transformers](https://huggingface.co/docs/transformers/en/index).
-  It offers an easy-to-use Streamlit-based interface, multi-format dataset support, built-in PII and sensitive information sanitization, and a customizable training process.
+  It offers an easy-to-use Streamlit-based interface, multi-format dataset support, built-in PII and sensitive information sanitization, and a customizable training process. [Tutorial](https://youtu.be/vccPQimdXUc)
 
 - [**attention_to_llm**](https://github.com/shrut2702/attention_to_llm) - My journal for hands-on exploration of building and training large language model from scratch.
 
