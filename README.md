@@ -1,30 +1,37 @@
-## Hi there 👋
+### Hi, I'm Shrut 👋
 
-Here I build and maintain Machine Learning Systems, Deep Learning Architectures and Open-Source package.
+I implement generative AI papers from scratch and document what breaks.
 
-- 🔭 &nbsp; I'm currently maintaining [**Upasak**](https://github.com/shrut2702/upasak)
-- 🌱 &nbsp; I’m currently learning MLOps, Mathematics and Generative AI
-- 😵 &nbsp; Buried under backlog of papers to read.
+Machine Learning Engineer working on applied ML problems in MedTech, mostly navigating ambiguity and vague ideas. Outside of that I rebuild the models behind modern generative AI, from VAEs and discrete latents to CLIP, GPT-style LLMs, and autoregressive text-to-image, so I understand the mechanism instead of the API. Currently moving into speech and talking avatars.
 
-<h3 align="left">Connect with me:</h3>
+Learn - Build - Feedback - Iterate
+
 <p align="left">
 <a href="https://x.com/detachedsl" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="detachedsl" height="30" width="40" /></a>
 <a href="https://www.linkedin.com/in/shrut-dalwadi/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="shrut-dalwadi" height="30" width="40" /></a>
 </p>
 
-### ✨&nbsp; About Me
+#### What I'm building
 
-Hi, I’m Shrut 👋
+- [**generative-ai-from-scratch**](https://github.com/shrut2702/autoencoder_to_multimodal-genai) - VAE, VQ-VAE, VQ-VAE-2, CLIP, and DALL·E-1-style autoregressive text-to-image, each implemented by hand and pushed through ablations. Perceptual loss took VQ-VAE-2 from 0.44 to 0.097 LPIPS. The text-to-image write-up tracks a generation bug through two wrong hypotheses before pinning it on data scale.
+
+- [**attention_to_llm**](https://github.com/shrut2702/attention_to_llm) - A GPT-2 style LLM built from tokenizer to DPO. Also holds architecture experiments with plots: pre-norm vs post-norm gradient stress test, RoPE vs absolute position embeddings across context lengths the model never saw, and MoE routing with and without a load balancing loss.
+
+- [**upasak**](https://github.com/shrut2702/upasak) - A flexible, mindful to privacy, no-code/low-code framework for fine-tuning large language models, built around [Hugging Face Transformers](https://huggingface.co/docs/transformers/en/index). Streamlit interface, multi-format dataset support, built-in PII sanitization. [Tutorial](https://youtu.be/vccPQimdXUc)
+
+- [**text_recognition**](https://github.com/shrut2702/text_recognition) - End-to-end OCR pipeline with CRAFT for detection and CRNN for recognition, trained from scratch on ~45,000 images and tracked with CometML.
+
+- [**retail_vision**](https://github.com/shrut2702/Retail_Product_Detection) - Detects and groups products on retail shelves using YOLO, served through Flask microservices.
+
+#### About me
 
 I am a firm believer of figuring out as we go.
 
-Learn - Build - Feedback - Iterate
+I started my career in 2024 and went deeper into AI to stop treating it as a black box. The further in I got, the more I fell for the fundamental mechanisms and principles behind deep learning architectures.
 
-I'm a Machine Learning Engineer with a year of experience working on applied ML problems in MedTech, while navigating through ambiguity and vague ideas.
+I'm broadly interested in maths, finance, tech, and ways to stop self-sabotaging. Aiming for generalist status, but my comfort zone has me in a death grip. Don't believe in fluff projects, either you learn something or you solve a problem.
 
-I started my career in 2024. And started exploring AI at more deeper level to go beyond thinking it as black box, and as I learned more about AI, I fell for fundamental mechanism and principles of Deep Learning architectures.
-
-I'm broadly interested in maths, finance, tech, and ways to stop self-sabotaging. Aiming for generalist status, but my comfort zone has me in a death grip. Don't believe in fluff projects, either you learn or build something that solves problem.
+Permanently buried under a backlog of papers to read.
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">
@@ -44,35 +51,15 @@ I'm broadly interested in maths, finance, tech, and ways to stop self-sabotaging
   <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
        alt="huggingface" width="40" height="40"/>
 </a>
-<!-- Docker -->
-<a href="https://www.docker.com" target="_blank" rel="noreferrer">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg"
-       alt="docker" width="40" height="40"/>
-</a>
-<!-- LangChain -->
-<a href="https://www.langchain.com" target="_blank" rel="noreferrer">
-  <img src="https://avatars.githubusercontent.com/u/126733545?s=200&v=4"
-       alt="langchain" width="40" height="40"/>
-</a>
 <!-- OpenCV -->
 <a href="https://opencv.org" target="_blank" rel="noreferrer">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg"
        alt="opencv" width="40" height="40"/>
 </a>
-<!-- Pandas -->
-<a href="https://pandas.pydata.org" target="_blank" rel="noreferrer">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg"
-       alt="pandas" width="40" height="40"/>
-</a>
-<!-- React -->
-<a href="https://reactjs.org" target="_blank" rel="noreferrer">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
-       alt="react" width="40" height="40"/>
-</a>
-<!-- Flask -->
-<a href="https://flask.palletsprojects.com" target="_blank" rel="noreferrer">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg"
-       alt="flask" width="40" height="40"/>
+<!-- Docker -->
+<a href="https://www.docker.com" target="_blank" rel="noreferrer">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg"
+       alt="docker" width="40" height="40"/>
 </a>
 <!-- Git -->
 <a href="https://git-scm.com" target="_blank" rel="noreferrer">
@@ -81,16 +68,3 @@ I'm broadly interested in maths, finance, tech, and ways to stop self-sabotaging
 </a>
 
 </p>
-
-#### Opensource / Projects
-
-All of my projects are released as open-source on GitHub:
-
-- [**upasak**](https://github.com/shrut2702/upasak) - A flexible, mindful to privacy, no-code/low-code framework for fine-tuning large language models, built around [Hugging Face Transformers](https://huggingface.co/docs/transformers/en/index).
-  It offers an easy-to-use Streamlit-based interface, multi-format dataset support, built-in PII and sensitive information sanitization, and a customizable training process. [Tutorial](https://youtu.be/vccPQimdXUc)
-
-- [**attention_to_llm**](https://github.com/shrut2702/attention_to_llm) - My journal for hands-on exploration of building and training large language model from scratch.
-
-- [**text_recognition**](https://github.com/shrut2702/text_recognition) - An end-to-end OCR pipeline with a web-based upload interface using CRAFT for text detection and CRNN for text recognition. Models were trained from scratch on ~45,000 images, with experiments and versions tracked using CometML.
-
-- [**retail_vision**](https://github.com/shrut2702/Retail_Product_Detection) - A pipeline designed to detect and group products on retail shelves. This project built using flask utilizes multiple microservices to process images, detect products using a YOLO model, and group the detected products by category.
