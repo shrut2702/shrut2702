@@ -13,7 +13,7 @@ Learn - Build - Feedback - Iterate
 
 #### What I'm building
 
-- [**generative-ai-from-scratch**](https://github.com/shrut2702/autoencoder_to_multimodal-genai) - VAE, VQ-VAE, VQ-VAE-2, CLIP, and DALL·E-1-style autoregressive text-to-image, each implemented by hand and pushed through ablations. Perceptual loss took VQ-VAE-2 from 0.44 to 0.097 LPIPS. The text-to-image write-up tracks a generation bug through two wrong hypotheses before pinning it on data scale.
+- [**generative-ai-from-scratch**](https://github.com/shrut2702/generative-ai-from-scratch) - VAE, VQ-VAE, VQ-VAE-2, CLIP, and DALL·E-1-style autoregressive text-to-image, each implemented by hand and pushed through ablations. Perceptual loss took VQ-VAE-2 from 0.44 to 0.097 LPIPS. The text-to-image write-up tracks a generation bug through two wrong hypotheses before pinning it on data scale.
 
 - [**attention_to_llm**](https://github.com/shrut2702/attention_to_llm) - A GPT-2 style LLM built from tokenizer to DPO. Also holds architecture experiments with plots: pre-norm vs post-norm gradient stress test, RoPE vs absolute position embeddings across context lengths the model never saw, and MoE routing with and without a load balancing loss.
 
@@ -22,8 +22,6 @@ Learn - Build - Feedback - Iterate
 - [**upasak**](https://github.com/shrut2702/upasak) - A flexible, mindful to privacy, no-code/low-code framework for fine-tuning large language models, built around [Hugging Face Transformers](https://huggingface.co/docs/transformers/en/index). Streamlit interface, multi-format dataset support, built-in PII sanitization. [Tutorial](https://youtu.be/vccPQimdXUc)
 
 - [**text_recognition**](https://github.com/shrut2702/text_recognition) - End-to-end OCR pipeline with CRAFT for detection and CRNN for recognition, trained from scratch on ~45,000 images and tracked with CometML.
-
-- [**retail_vision**](https://github.com/shrut2702/Retail_Product_Detection) - Detects and groups products on retail shelves using YOLO, served through Flask microservices.
 
 #### About me
 
