@@ -17,6 +17,8 @@ Learn - Build - Feedback - Iterate
 
 - [**attention_to_llm**](https://github.com/shrut2702/attention_to_llm) - A GPT-2 style LLM built from tokenizer to DPO. Also holds architecture experiments with plots: pre-norm vs post-norm gradient stress test, RoPE vs absolute position embeddings across context lengths the model never saw, and MoE routing with and without a load balancing loss.
 
+- [**microscaling-formats**](https://github.com/shrut2702/microscaling-formats) - Benchmark of per-tensor, block-32, and microscaling (MX) INT quantization at 8, 4, and 2 bits across 7 vision-language models on VQAv2 and TextVQA. INT8 is essentially free, per-tensor INT4 collapses every model to near zero accuracy because one scale per tensor rounds ~90% of weights to zero, and block-INT4 beats MXINT4 by 3 to 9%. [Blog post](https://medium.com/@shroot2702hd/its-not-the-bits-it-s-the-scale-in-vision-language-model-quantization-153f595606fd)
+
 - [**upasak**](https://github.com/shrut2702/upasak) - A flexible, mindful to privacy, no-code/low-code framework for fine-tuning large language models, built around [Hugging Face Transformers](https://huggingface.co/docs/transformers/en/index). Streamlit interface, multi-format dataset support, built-in PII sanitization. [Tutorial](https://youtu.be/vccPQimdXUc)
 
 - [**text_recognition**](https://github.com/shrut2702/text_recognition) - End-to-end OCR pipeline with CRAFT for detection and CRNN for recognition, trained from scratch on ~45,000 images and tracked with CometML.
