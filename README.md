@@ -33,7 +33,8 @@ I'm broadly interested in maths, finance, tech, and ways to stop self-sabotaging
 
 Permanently buried under a backlog of papers to read.
 
-**Burning Tokens and Harming Agriculture**
+<h4>Burning Tokens and Harming Environment</h4>
+
 [![tokenchit](https://tokenchit.app/api/card/shrut2702.svg)](https://tokenchit.app/u/shrut2702)
 
 <h3 align="left">Languages and Tools:</h3>
