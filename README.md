@@ -13,6 +13,8 @@ Learn - Build - Feedback - Iterate
 
 #### What I'm building
 
+- [**speech-to-speech-latency-profiling**](https://github.com/shrut2702/speech-to-speech-latency-profiling) - How much of a cascade's latency is the cascade itself. Three ASR to LLM to TTS arrangements, one process and one GPU per stage, built to be compared against Moshi, a full-duplex spoken dialogue model that does the whole job in one network. Overlapping the LLM with the TTS is worth 4.4x on time to first audio, 11.9s down to 2.7s. Running the ASR during speech on top of that saves 106ms at the median and gives it back at p95. Profiling CosyVoice2 for this turned up its speech-token LM and flow decoder blocking each other on the Python interpreter lock, worth 40% of the LM's time. Next: Moshi.
+
 - [**generative-ai-from-scratch**](https://github.com/shrut2702/generative-ai-from-scratch) - VAE, VQ-VAE, VQ-VAE-2, CLIP, and DALL·E-1-style autoregressive text-to-image, each implemented by hand and pushed through ablations. Perceptual loss took VQ-VAE-2 from 0.44 to 0.097 LPIPS. The text-to-image write-up tracks a generation bug through two wrong hypotheses before pinning it on data scale.
 
 - [**talking_avatar_journey**](https://github.com/shrut2702/talking_avatar_journey) - Learning the building blocks behind audio-driven talking avatars through hands-on implementation. Covers audio features for lip-sync (mel spectrograms, MFCCs, DeepSpeech/wav2vec2 extraction), a from-scratch pix2pix conditional GAN for image-to-image translation, Wav2Lip audio-driven lip-sync inference, and a Spatial Transformer Network (STN) for pose warping with comparative benchmarking against a standard CNN on MNIST. Next step: DINet.
