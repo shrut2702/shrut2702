@@ -13,7 +13,7 @@ Learn - Build - Feedback - Iterate
 
 #### What I'm building
 
-- [**speech-to-speech-latency-profiling**](https://github.com/shrut2702/speech-to-speech-latency-profiling) - A voice assistant can either chain together separate ASR, LLM, and TTS models (cascaded pipeline), or use one model that does everything at once (full-duplex). This project measures how much time each approach actually takes before the user hears a reply. For the cascaded setup, streaming LLM and TTS cuts the wait before first audio by 4.4x - from 11.9 seconds (batch) down to 2.7. Also starting the ASR while the user is still talking saves a bit more on average, though it doesn't help in the worst cases. Along the way, profiling the TTS model (CosyVoice2) showed a bottleneck - fixing that recovered 40% of the wasted time. Compared against Moshi, a model that does the whole job in one network: Moshi replies in 145 milliseconds on average, about 19x faster than the best cascaded setup. The catch is that in about 1 out of 9 tries, Moshi started talking before the user had finished.
+- [**speech-to-speech-latency-profiling**](https://github.com/shrut2702/speech-to-speech-latency-profiling) - A voice assistant can either chain together separate ASR, LLM, and TTS models (cascaded pipeline), or use one model that does everything at once (full-duplex). This project measures how much time each approach actually takes before the user hears a reply. For the cascaded setup, streaming LLM and TTS cuts the wait before first audio by 4.4x - from 11.9 seconds (batch) down to 2.7. Also starting the ASR while the user is still talking saves a bit more on average, though it doesn't help in the worst cases. Along the way, profiling the TTS model (CosyVoice2) showed a bottleneck - fixing that recovered 40% of the wasted time. Compared against Moshi, a model that does the whole job in one network: Moshi replies in 144 milliseconds on average, about 19x faster than the best cascaded setup. The catch is that in about 1 out of 9 tries, Moshi didn't respond.
 
 - [**generative-ai-from-scratch**](https://github.com/shrut2702/generative-ai-from-scratch) - VAE, VQ-VAE, VQ-VAE-2, CLIP, and DALL·E-1-style autoregressive text-to-image, each implemented by hand and pushed through ablations. Perceptual loss took VQ-VAE-2 from 0.44 to 0.097 LPIPS. The text-to-image write-up tracks a generation bug through two wrong hypotheses before pinning it on data scale.
 
@@ -36,10 +36,6 @@ I started my career in 2024 and went deeper into AI to stop treating it as a bla
 I'm broadly interested in maths, finance, tech, and ways to stop self-sabotaging. Aiming for generalist status, but my comfort zone has me in a death grip. Don't believe in fluff projects, either you learn something or you solve a problem.
 
 Permanently buried under a backlog of papers to read.
-
-<h4>Burning Tokens and Harming Environment</h4>
-
-[![tokenchit](https://tokenchit.app/api/card/shrut2702.svg)](https://tokenchit.app/u/shrut2702)
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">
